@@ -18,7 +18,7 @@ There are two options as to how to run the server:
 2. UDP connection, also supports the -d directive as requested.
 		```$./server -u ```
 
-when server is activated with -u the client must be run with -u corressponding aswell (instructions up-ahead)
+when server is activated with -u the client must be run with -u corressponding aswell (instructionS up-ahead)
 
 ### Now we can run the client: 2 options:
 1. TCP connection:

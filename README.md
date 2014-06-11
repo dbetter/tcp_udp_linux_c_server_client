@@ -14,13 +14,13 @@ After "Make", there'll be 2 executable files, "server" & "client".
 There are two options as to how to run the server:
 
 
-1. TCP connection, supports -d & -s flags
+**TCP connection**, supports -d & -s flags
   * -d for directive to start at
   * -s for "select" implementation of the new connections instead of "fork"
 ```
 $./server
 ```
-2. UDP connection, also supports the -d directive.
+**UDP connection**, also supports the -d directive.
 ```
 $./server -u
 ```
@@ -29,11 +29,11 @@ $./server -u
 when server is activated with -u the client must be run with -u corressponding aswell (instructions up-ahead)
 
 ### Now we can run the client: 2 options:
-1. TCP connection:
+**TCP connection:**
 ```
 $./client 127.0.0.1
 ``` 
-2. UDP connection (must be corressponding to the $./server -u option)
+**UDP connection:** (must be corressponding to the $./server -u option)
 ```
 $./client 127.0.0.1 -u
 ```

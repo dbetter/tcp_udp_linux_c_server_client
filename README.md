@@ -37,3 +37,5 @@ $./client 127.0.0.1
 ```
 $./client 127.0.0.1 -u
 ```
+
+The client supports the following commands: cd, lcd, put, get, dir, quit. 

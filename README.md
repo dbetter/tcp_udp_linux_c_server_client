@@ -8,6 +8,7 @@ How to run the client/server:
 Make
 ```
 
+
 2. after "Make", there'll be 2 executable files, "server" & "client".
 
 ### First of all, activate the "server":
@@ -19,6 +20,7 @@ There are two options as to how to run the server:
 ```
 $./server
 ```
+
 2. UDP connection, also supports the -d directive.
 ```
 $./server -u

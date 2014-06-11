@@ -3,16 +3,16 @@
 
 How to run the client/server:
 
-1. There's a "Makefile" included in the folder of the excercise.
+There's a "Makefile" included in the folder of the excercise.
 ```
 Make
 ```
 
-
-2. after "Make", there'll be 2 executable files, "server" & "client".
+After "Make", there'll be 2 executable files, "server" & "client".
 
 ### First of all, activate the "server":
 There are two options as to how to run the server:
+
 
 1. TCP connection, supports -d & -s flags
   * -d for directive to start at
@@ -20,7 +20,6 @@ There are two options as to how to run the server:
 ```
 $./server
 ```
-
 2. UDP connection, also supports the -d directive.
 ```
 $./server -u
@@ -33,8 +32,7 @@ when server is activated with -u the client must be run with -u corressponding a
 1. TCP connection:
 ```
 $./client 127.0.0.1
-```
- 
+``` 
 2. UDP connection (must be corressponding to the $./server -u option)
 ```
 $./client 127.0.0.1 -u

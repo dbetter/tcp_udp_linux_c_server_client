@@ -15,13 +15,13 @@ Make
 There are two options as to how to run the server:
 
 1. TCP connection, supports -d & -s flags
-* -d for directive to start at
-* -s for "select" implementation of the new connections instead of "fork"
+** -d for directive to start at
+** -s for "select" implementation of the new connections instead of "fork"
 ```
 $./server
 ```
 
-2. UDP connection, also supports the -d directive as requested.
+2. UDP connection, also supports the -d directive.
 ```
 $./server -u
 ```
